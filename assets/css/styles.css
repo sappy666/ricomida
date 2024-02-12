@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap');
+
+:root{
+--black:#000;
+--white:#fff;
+--danger:#dc3545;
+}
+
+
+body{
+  font-family: 'Cabin', sans-serif;
+}
+
+/* Navbar*/
+.navbar-brand{
+  font-family: 'Lobster', cursive;
+  font-size: 1.8rem;
+  
+}
+
+/*Principal*/
+.texto-der{
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+}
+
+h1{
+  border-bottom: solid 2px black;
+  padding-bottom: 2rem;
+}
+
+.mx-10{
+  padding: 0 6rem;
+}
+
+.fotopizza img{
+  width: 100%;
+}
+
+.grueso{
+text-decoration: underline 1.5px #373A3C;
+text-underline-offset: 10px;
+}
+
+/* Carrusel*/
+
+.carousel-indicators{
+transform: translateY(50px);  
+  & button{
+    background: #373A3C!important;
+    width: 13px!important;
+    height: 13px!important;
+    border: none!important;
+    border-radius: 50%;
+  }
+}
+
+/* .carousel-item img{
+  width: 100%;
+} */
+
+/* .carousel{ */
+  /* margin-inline: 150px; */
+/* } */
+#carouselExampleControls{
+  margin-inline: 150px;
+  & img:not(:last-child){
+       margin-inline-end: 16px;
+  }
+}
+
+/*footer*/
+.carta-final{
+    background-color: #DC3545;
+}
+
+.title.sus{
+  font-size: 2rem;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+}
+
+.text.sus{
+  font-size: 1.3rem;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+}
+
+.logo.sus{
+  font-size: 1.3rem;
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+}
+
+.py-8{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+/*logo final*/
+.logo-final{
+background-color: #373A3C;
+font-family: 'Lobster', cursive;
+color: white;
+font-size: 1.8rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  }
